@@ -1,0 +1,84 @@
+.main {
+
+    background-color: #d9d9d9;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.item {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.task-view {
+    width: 320px;
+    padding-left: 15px;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 10px;
+    border: 0;
+    margin-left: 10px;
+}
+
+.edit {
+    background-color: #66ff66;
+}
+
+.del {
+    background-color: #ff4d4d;
+
+}
+
+.clear {
+    background-color: #ffff80;
+
+    margin: auto;
+    display: block;
+}
+
+.add {
+    background-color: #4d4dff;
+
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.task-input {
+    padding: 10px;
+    width: 310px;
+}
+
+.form-input {
+    padding: 10px;
+    width: 360px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.form-container {
+    margin: 10px auto;
+    width: fit-content;
+
+}
+
+.item-container {
+    margin: 10px;
+}
